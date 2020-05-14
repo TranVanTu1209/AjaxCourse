@@ -1,0 +1,184 @@
+/** @format */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #f3f3f3;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.7;
+}
+.about,
+.bio {
+	background-color: #ffffff;
+	padding: 2rem;
+}
+.wrap {
+	padding: 1rem;
+	padding-top: 0;
+	display: flex;
+}
+.title {
+	padding: 1rem 2rem;
+}
+p {
+	margin-bottom: 1rem;
+}
+.about img {
+	width: 270px;
+}
+hr {
+	font-size: 2rem;
+	margin: 1rem 0;
+}
+ul li {
+	margin-bottom: 1rem;
+}
+.bio ul {
+	margin-left: 2rem;
+}
+.about {
+	margin-right: 1rem;
+}
+input[type="text"],
+textarea {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+input[type="text"] {
+	height: 30px;
+}
+textarea {
+	height: 80px;
+}
+.btn.btn-primary {
+	text-align: center;
+	background-color: rgb(56, 56, 197);
+	color: #fff;
+	padding: 1rem 2.5rem;
+	border: none;
+	cursor: pointer;
+	margin: 1rem 0;
+}
+.about {
+	height: 650px;
+	position: sticky;
+	top: 1px;
+}
+
+.footer {
+	padding: 2rem;
+	text-align: center;
+	color: rgb(206, 192, 192);
+	background-color: black;
+}
+.footer p {
+	margin-bottom: 0;
+}
+table {
+	margin: auto;
+	width: 800px;
+	border-collapse: collapse;
+	border: 1px solid #fff; /*for older IE*/
+	border-style: hidden;
+}
+
+table caption {
+	color: #fff;
+	font-size: x-large;
+	font-weight: bold;
+	letter-spacing: 0.3em;
+}
+
+table thead th {
+	padding: 8px;
+	font-size: large;
+	text-align: left;
+}
+
+table thead th {
+	width: 40%;
+}
+
+table thead th,
+table thead th,
+table thead th {
+	width: 10%;
+}
+
+table th,
+table td {
+	padding: 10px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+table td {
+	text-align: left;
+	cursor: pointer;
+}
+
+table tbody th {
+	text-align: left;
+	font-weight: normal;
+}
+
+table tfoot {
+	font-weight: bold;
+	font-size: large;
+	background-color: #687886;
+	color: #fff;
+}
+.contact-title {
+	margin-top: 2rem;
+}
+.no-bg {
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+}
+.table-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 3rem;
+}
+.group-btn {
+	margin: 2rem 0;
+}
+.group-btn button {
+	padding: 0.5rem 0.8rem;
+	cursor: pointer;
+	margin: 0.5;
+}
+.group-btn button:focus {
+	outline: none;
+}
+table tr.even {
+	background-color: #fde9d9;
+}
+#details {
+	padding: 0 2.5rem;
+}
+@media (max-width: 500px) {
+	.wrap {
+		flex-direction: column;
+	}
+	.about {
+		margin-bottom: 2rem;
+	}
+	.about {
+		position: static;
+	}
+	table {
+		margin: auto;
+		width: 400px;
+		border-collapse: collapse;
+		border: 1px solid #fff; /*for older IE*/
+		border-style: hidden;
+	}
+	.table-footer {
+		flex-direction: column;
+	}
+}
